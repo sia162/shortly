@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 11px 0px;
+}
+
+.navSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+
+.headNav {
+  height: 2rem;
+  margin: 11px 0px;
+}
+
+.middleNav,
+.rightNav {
+  transition: all 1s ease-in-out;
+}
+
+.middleNav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.middleNav ul li {
+  list-style: none;
+}
+
+.middleNav ul li a {
+  text-decoration: none;
+  padding: 15px;
+  color: hsl(0, 0%, 75%);
+}
+
+.rightNav ul {
+  display: flex;
+}
+
+.rightNav ul li {
+  list-style: none;
+  margin: 1px 10px;
+}
+
+/* SECTION ONE */
+.sectionOne {
+  padding: 0rem 10rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -14vh;
+}
+
+.s1content {
+  width: 50%;
+  padding: 8rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.s1content h3 {
+  font-size: 3.6rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.s1content p {
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 75%);
+}
+
+.s1content a {
+  width: 130px;
+}
+
+.s1img {
+  width: 50%;
+}
+
+.s1img img {
+  width: 40vw;
+}
+
+/* main short link bar  */
+.LinkSection {
+  text-align: center;
+  background: hsl(260, 8%, 14%);
+  width: 78vw;
+  margin: 2rem auto;
+  border-radius: 13px;
+  z-index: 0;
+  position: relative;
+  top: 7rem;
+}
+
+.linkBar {
+  width: 78vw;
+  background: url(../images/bg-boost-desktop.svg) no-repeat center center/cover;
+  height: 21vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  border-radius: 13px;
+  z-index: -3;
+}
+
+.linkBar input {
+  border-radius: 7px;
+  width: 54vw;
+  padding: 15px 10px;
+  font-size: 14.5px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+/* SECTION TWO */
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(240, 14%, 95%);
+  z-index: -2;
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+
+.s2head {
+  text-align: center;
+}
+
+.s2head h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.s2head p {
+  line-height: 0.6rem;
+  color: hsl(0, 0%, 75%);
+}
+
+.s2cards {
+  display: flex;
+  column-gap: 2rem;
+  margin: 7rem;
+  transform: translate(1%, -3%);
+}
+
+.card {
+  height: auto;
+  width: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cardImg {
+  display: inline-block;
+  background: hsl(257, 27%, 26%);
+  width: 53px;
+  height: 53px;
+  padding: 12px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  top: -63px;
+  left: 3px;
+}
+
+.cardCon {
+  height: inherit;
+  position: relative;
+  left: 50%;
+  top: 7%;
+  transform: translate(-50%, -50%);
+  margin: 32px 0px;
+}
+
+.cardImg img {
+  margin: 6px auto;
+  width: 35px;
+}
+
+.card2 {
+  position: relative;
+  top: 49px;
+}
+
+.card3 {
+  position: relative;
+  top: 96px;
+}
+
+/* SECTION THREE */
+.sectionThree {
+  background: hsl(260, 8%, 14%);
+}
+
+.s2box {
+  background: url(../images/bg-boost-desktop.svg) no-repeat center center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 24vh;
+  padding: 22px 5px;
+}
+.s2box h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+/* SECTION FOUR */
+.sectionFour {
+  display: flex;
+  background: rgb(27, 27, 27);
+  color: white;
+  justify-content: space-around;
+  padding: 3rem 1rem;
+}
+
+.s4option {
+  display: flex;
+  column-gap: 4rem;
+  font-size: 12px;
+}
+
+.s4head {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.iconsBox {
+  display: flex;
+  column-gap: 1rem;
+  padding-top: 2rem;
+}
+
+.optionBox p {
+  color: hsl(0, 0%, 75%);
+}
+
+/* UTILITY CLASSES*/
+.btn {
+  width: 90px;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: hsl(180, 66%, 49%);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: hsl(255, 11%, 22%);
+}
+
+.bigBtn {
+  width: 115px;
+  padding: 8px 5px;
+  border-radius: 30px;
+}
+
+.loginBtn {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  color: hsl(0, 0%, 75%);
+}
+
+.shortLinkBtn {
+  padding: 13px 3px;
+  width: 138px;
+  border-radius: 5px;
+  font-size: 13.5px;
+}
+
+/* HAMBURGER */
+.hambuger {
+  position: absolute;
+  right: 23px;
+  top: 23px;
+  display: none;
+  cursor: pointer;
+}
+
+.line {
+  margin: 4px 6px;
+  height: 4px;
+  width: 31px;
+  background: hsl(0, 0%, 75%);
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <style>
+      .attribution {
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        background: black;
+        color: hsl(0, 0%, 75%);
+        width: 100%;
+        font-size: 0.8rem;
+        padding: 4px 0px;
+      }
+      .attribution a {
+        color: hsl(228, 80%, 72%);
+      }
+    </style>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/respResultSection.css" />
+    <link rel="stylesheet" href="./css/results.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <div id="nav" class="nav">
+      <a href="#nav"> <img class="headNav" src="./images/logo.svg" alt="" /></a>
+
+      <div class="navSec">
+        <div class="middleNav">
+          <ul>
+            <li><a href="#features"> Features</a></li>
+            <li><a href="#"> Pricing</a></li>
+            <li><a href="#"> Resources</a></li>
+          </ul>
+        </div>
+
+        <div class="rightNav">
+          <ul>
+            <li><button class="btn loginBtn">Login</button></li>
+            <li><button class="btn">Signup</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hambuger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <!-- SECTION ONE -->
+    <div class="sectionOne">
+      <div class="s1content">
+        <h3>More than just</h3>
+        <h3>short links</h3>
+        <p>
+          Build your brand’s recognition and get detailed <br />
+          insights on how your links are performing.
+        </p>
+        <a href="#linkSec"> <button class="btn bigBtn">Get Started</button></a>
+      </div>
+      <div class="s1img">
+        <img src="./images/illustration-working.svg" alt="" />
+      </div>
+    </div>
+
+    <!-- main short link bar -->
+    <div id="linkSec" class="LinkSection">
+      <div class="linkBar">
+        <input
+          id="linkToShorten"
+          type="text"
+          name="linkbar"
+          placeholder="Shorten a link here..."
+        />
+        <button class="btn shortLinkBtn">Shorten it!</button>
+      </div>
+    </div>
+
+    <!-- SECTION TWO -->
+    <div id="features" class="sectionTwo">
+      <div class="resultLinks">
+        <!-- to be used from -->
+
+        <!-- <div class="results">
+          <div class="shortLink1">
+            https://docs.google.com/forms/d/e/1FAIpQLSdFRCiFhb62VepHrFnF73JfGbFNLfxhpAqZr1sn7uEjFlwV8A/viewform
+          </div>
+          <div class="leftResults">
+            <div id="toCopy1" class="shortLink2">${data.short_link}</div>
+            <button class="btn copyBtn">Copy</button>
+          </div>
+        </div> -->
+
+        <!-- <div class="results">
+          <div class="shortLink1">${data.original_link}</div>
+          <div class="leftResults">
+            <div id="toCopy2" class="shortLink2">${data.short_link2}</div>
+            <button class="btn copyBtn">Copy</button>
+          </div>
+        </div> -->
+
+        <!-- to be used to-->
+      </div>
+
+      <div class="s2head">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with</p>
+        <p>our advanced statistics dashboard.</p>
+      </div>
+      <div class="s2cards">
+        <div class="card card1">
+          <div class="cardImg">
+            <img
+              src="./images/icon-brand-recognition.svg"
+              alt="icon"
+              class="icon icon1"
+            />
+          </div>
+          <div class="cardCon">
+            <h4>Brand Recognition</h4>
+            <p>
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content
+            </p>
+          </div>
+        </div>
+
+        <div class="card card2">
+          <div class="cardImg">
+            <img
+              src="./images/icon-detailed-records.svg"
+              alt="icon"
+              class="icon icon1"
+            />
+          </div>
+          <div class="cardCon">
+            <h4>Detailed Records</h4>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+        </div>
+
+        <div class="card card3">
+          <div class="cardImg">
+            <img
+              src="./images/icon-fully-customizable.svg"
+              alt="icon"
+              class="icon icon1"
+            />
+          </div>
+          <div class="cardCon">
+            <h4>Fully Customizable</h4>
+            <p>
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION TWO boost your link section -->
+    <div class="sectionThree">
+      <div class="s2box">
+        <h3>Boost your links today!</h3>
+        <a href="#linkSec"> <button class="btn bigBtn">Get Started</button></a>
+      </div>
+    </div>
+
+    <!-- SECTION FOUR -->
+    <div class="sectionFour">
+      <div class="s4head">Shortly</div>
+      <div class="s4option">
+        <div class="optionBox">
+          <h3>Features</h3>
+          <p>Link Shortening</p>
+          <p>Branded Links</p>
+          <p>Analytics</p>
+        </div>
+        <div class="optionBox">
+          <h3>Resources</h3>
+          <p>Blog</p>
+          <p>Developers</p>
+          <p>Support</p>
+        </div>
+        <div class="optionBox">
+          <h3>Company</h3>
+          <p>About</p>
+          <p>Our Team</p>
+          <p>Careers</p>
+          <p>Contact</p>
+        </div>
+        <div class="iconsBox">
+          <a href="#"><img src="./images/icon-facebook.svg" alt="" /></a>
+          <a href="#"><img src="./images/icon-twitter.svg" alt="" /></a>
+          <a href="#"><img src="./images/icon-pinterest.svg" alt="" /></a>
+          <a href="#"><img src="./images/icon-instagram.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Siya</a>.
+    </div>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/respHumburger.js"></script>
+    <!-- <script src="./js/copyBtn.js"></script> -->
+  </body>
+</html>

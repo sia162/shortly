@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1238px) {
+  .results {
+    flex-direction: column;
+    height: auto;
+    font-size: 13px;
+  }
+  .shortLink1 {
+    word-break: break-all;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .results {
+    font-size: 10px;
+  }
+
+  .leftResults {
+    flex-direction: column;
+    row-gap: inherit;
+  }
+  .btn {
+    width: 129px;
+    font-size: 10px;
+  }
+}

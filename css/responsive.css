@@ -1,0 +1,301 @@
+@media only screen and (max-width: 1160px) {
+  /* nav */
+  .middleNav ul li a {
+    padding: 4px 5px;
+    font-size: 13px;
+  }
+
+  .headNav {
+    height: 2rem;
+    margin-top: 16px;
+  }
+
+  .rightNav ul {
+    margin: 9px 0px;
+  }
+
+  /* section ONE */
+  .sectionOne {
+    padding: 0rem;
+    margin: 1rem 7rem;
+  }
+
+  .s1content {
+    padding: 4rem 0rem;
+    justify-content: center;
+  }
+
+  .s1content h3 {
+    font-size: 2rem;
+    line-height: 1.9rem;
+  }
+
+  .s1content p {
+    font-size: 0.7rem;
+  }
+
+  /* link section */
+
+  .LinkSection {
+    margin: 0rem auto;
+    top: 3rem;
+  }
+
+  .linkBar {
+    height: 13vh;
+    column-gap: 1rem;
+  }
+
+  .linkBar input {
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+
+  /* SECTION TWO */
+  .sectionTwo {
+    padding-top: 7rem;
+    padding-bottom: 0rem;
+  }
+
+  .s2head h2 {
+    font-size: 1.7rem;
+  }
+
+  /* SECTION THREE */
+  .card {
+    height: auto;
+    width: auto;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+  }
+
+  .cardCon {
+    top: 7%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cardImg {
+    width: 30px;
+    height: 30px;
+    top: -54px;
+    left: 0px;
+  }
+
+  .s2cards {
+    left: -19vw;
+  }
+
+  .cardImg img {
+    margin: 2px auto;
+    width: 25px;
+  }
+
+  .card2 {
+    top: 21px;
+  }
+
+  .card3 {
+    top: 52px;
+  }
+  /* section three */
+  .s2box {
+    height: 19vh;
+  }
+  .s2box h3 {
+    font-size: 1.2rem;
+  }
+
+  /* section FOUR */
+  .s4option {
+    font-size: 8px;
+  }
+
+  .s4head {
+    font-size: 1rem;
+  }
+
+  .iconsBox img {
+    width: 18px;
+  }
+
+  /* unitlity */
+  .btn {
+    width: 65px;
+    font-size: 13px;
+  }
+
+  .bigBtn {
+    width: 88px;
+    padding: 5px 0px;
+    border-radius: 25px;
+    font-size: 11px;
+  }
+
+  .shortLinkBtn {
+    width: 86px;
+    padding: 7px 1px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  /* nav */
+
+  .nav {
+    font-size: 1rem;
+    padding-top: 36px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headNav {
+    position: absolute;
+    left: 36px;
+    top: 9px;
+    height: 21px;
+  }
+
+  .navSec {
+    flex-direction: column;
+    width: 80%;
+    background: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 14px;
+    border-radius: 21px;
+    display: none;
+  }
+
+  .middleNav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .rightNav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  /* sectionOne */
+  .sectionOne {
+    margin: 3rem 3rem;
+  }
+
+  .s1img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* link */
+  .linkBar {
+    height: 10vh;
+  }
+
+  .linkBar input {
+    padding: 2px 10px;
+    width: 37vw;
+  }
+
+  .shortLinkBtn {
+    width: 84px;
+    padding: 6px 1px;
+    font-size: 10px;
+  }
+
+  /* section Cards */
+
+  .s2cards {
+    flex-direction: column;
+  }
+
+  /* sectionFour */
+  .sectionFour {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .s4option {
+    flex-direction: column;
+  }
+
+  /* hamburger */
+  .hambuger {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 438px) {
+  .sectionOne {
+    margin: 0 14px;
+    margin-top: 37px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s1content {
+    padding: 2rem 0rem;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+  }
+
+  .s1content h3 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .s1img img {
+    width: 82vw;
+  }
+
+  .linkBar {
+    height: 16vh;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .linkBar input {
+    padding: 2px 10px;
+    width: 57vw;
+    font-size: 10px;
+  }
+
+  .card {
+    height: 138px;
+    width: 160px;
+  }
+
+  .cardCon {
+    margin: 0px;
+  }
+
+  .s2head h2 {
+    font-size: 1.2rem;
+  }
+  .s2head p {
+    font-size: 11px;
+    padding: 5px 24px;
+    margin: 0;
+    line-height: 0.9rem;
+  }
+
+  .s2cards {
+    margin: 5rem;
+  }
+
+  .sectionTwo {
+    padding-top: 5rem;
+  }
+}
